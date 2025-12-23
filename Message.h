@@ -1,7 +1,6 @@
 // Message.h
 
-#ifndef MESSAGE_H
-#define MESSAGE_H
+#pragma once
 
 #include <string>
 #include <iostream>
@@ -16,4 +15,4 @@ struct Message {
         : id(_id), data(_data), priority(_priority) {}
 };
 
-#endif // MESSAGE_H
+
